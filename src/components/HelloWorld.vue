@@ -11,6 +11,7 @@
             </small>
           </footer>
         </blockquote>
+        <p> {{ msg }} </p>
       </v-layout>
     </v-slide-y-transition>
   </v-container>

@@ -1,5 +1,5 @@
 {
-  "name": "vuetify-hello",
+  "name": "graph-plotter",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,10 @@
     "serve:electron": "vue-cli-service serve:electron"
   },
   "dependencies": {
+    "chart.js": "^2.7.2",
+    "papaparse": "^4.6.0",
     "vue": "^2.5.17",
+    "vue-chartjs": "^3.4.0",
     "vuetify": "^1.0.19"
   },
   "devDependencies": {
