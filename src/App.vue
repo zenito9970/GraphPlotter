@@ -22,7 +22,6 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
 import FileSelector from './components/FileSelector'
 import ChartCard from './components/ChartCard'
 import Papa from 'papaparse'
@@ -30,7 +29,6 @@ import Papa from 'papaparse'
 export default {
   name: 'App',
   components: {
-    HelloWorld,
     FileSelector,
     ChartCard,
     Papa
